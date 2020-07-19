@@ -1,10 +1,35 @@
-.Web {
-	color: rgba(33, 150, 243, 0.9);
-	font-family: Raleway;
+:root {
+	--accent-color: #2196F3;
+	--base-color: #212121;
+	--contact-color: rgba(255, 255, 255, 0.6);
+	--light-text: #FFFFFF;
 }
-.Studio {
-	color: black;
+
+
+/*header*/
+
+.logo {
 	font-family: Raleway;
+	font-weight: bold;
+	font-size: 26px;
+	line-height: 31px;
+}
+
+.logo span {
+	color: var(--accent-color);
+}
+.logo {
+	font-family: Raleway;
+	font-weight: bold;
+	font-size: 26px;
+	line-height: 31px;
+	color: black;	
+
+	h1 {
+	font-size: 44px;
+	color: var(--light-text);
+	background: rgba(47, 48, 58, 0.8);
+	}
 }
 .link-button .link {
 	color: black;
