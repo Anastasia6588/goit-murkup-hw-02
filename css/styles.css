@@ -1,42 +1,72 @@
 :root {
-	--accent-color: #2196F3;
+	--accent-color: #2196f3;
 	--base-color: #212121;
 	--contact-color: rgba(255, 255, 255, 0.6);
-	--light-text: #FFFFFF;
+	--light-text: #ffffff;
 }
 
-
-/*header*/
-
-.logo {
-	font-family: Raleway;
+body {
+	font-family: Roboto;
 	font-weight: bold;
-	font-size: 26px;
-	line-height: 31px;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: var(--base-color);
 }
 
-.logo span {
-	color: var(--accent-color);
-}
-.logo {
-	font-family: Raleway;
-	font-weight: bold;
-	font-size: 26px;
-	line-height: 31px;
-	color: black;	
-
-	h1 {
+h1 {
+	font-family: Roboto;
+	font-weight: 900;
 	font-size: 44px;
-	color: var(--light-text);
-	background: rgba(47, 48, 58, 0.8);
-	}
+	line-height: 1.36;
+	text-align: center;
+	letter-spacing: 0.06em;
+	text-transform: uppercase;
+	background-color: rgba(47, 48, 58, 0.8);
+	color: #ffffff;
 }
-.link-button .link {
-	color: black;
+
+header {
 	font-family: Roboto;
-	background-color: rgba(0, 0, 0, 0.12);
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+	color: var(--base-color);
 }
-.link-button .link:hover {
-	color: white;
+
+.logo-web {
+	color: var(--accent-color);
+	font-family: Raleway;
+	font-weight: bold;
+	font-size: 26px;
+	line-height: 1.19;
+	letter-spacing: 0.03em;
+}
+
+.logo-studio {
+	color: var(--base-color);
+	font-family: Raleway;
+	font-weight: bold;
+	font-size: 26px;
+	line-height: 1.19;
+	letter-spacing: 0.03em;
+}
+.site-nav {
 	font-family: Roboto;
-	background-color: rgba(33, 150, 243, 0.9);
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+}
+
+.menu-link {
+	color: var(--base-color);
+}
+
+.menu-link:hover,
+.menu-link:focus {
+	color: #2196f3;
+}
