@@ -1,7 +1,7 @@
 :root {
 	--accent-color: #2196f3;
 	--base-color: #212121;
-	--contact-color: rgba(255, 255, 255, 0.6);
+	--contact-color: #757575;
 	--light-text: #ffffff;
 }
 
@@ -29,11 +29,20 @@ h1 {
 
 header {
 	font-family: Roboto;
-	font-style: normal;
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 1.14;
 	letter-spacing: 0.02em;
+	color: var(--base-color);
+}
+
+h2 {
+	font-family: Roboto;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
 	color: var(--base-color);
 }
 
@@ -69,4 +78,45 @@ header {
 .menu-link:hover,
 .menu-link:focus {
 	color: #2196f3;
+}
+
+.menu-contacts {
+	color: var(--contact-color);
+}
+
+.menu-contacts:hover,
+.menu-contacts:focus {
+	color: #2196f3;
+}
+
+.btn {
+	background: #2196f3;
+	border-radius: 4px;
+	font-family: Roboto;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 1.87;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.06em;
+	color: var(--light-text);
+}
+
+.link-button {
+	font-family: Roboto;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.62;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: var(--base-color);
+	background-color: #f5f4fa;
+	border-radius: 4px;
+	decoration: none;
+}
+.link-button:hover,
+.link-button:focus {
+	background: var(--accent-color);
+	color: var(--light-text);
 }
