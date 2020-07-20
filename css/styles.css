@@ -43,7 +43,31 @@ h2 {
 	line-height: 1.14;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
+	text-align: center;
 	color: var(--base-color);
+}
+
+a {
+	text-decoration: none;
+	color: #afb1b8;
+}
+
+li {
+	list-style: none;
+	text-decoration: none;
+}
+
+p {
+	font-family: Roboto;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 1.71;
+	letter-spacing: 0.03em;
+	color: var(--contact-color);
+}
+
+footer {
+	background: #2f303a;
 }
 
 .logo {
@@ -85,9 +109,14 @@ h2 {
 	color: #2196f3;
 }
 
+.site-nav .menu-link.current {
+	color: var(--accent-color);
+}
+
 .menu-contacts {
 	color: var(--contact-color);
 	text-decoration: none;
+	font-style: normal;
 }
 
 .menu-contacts:hover,
@@ -119,10 +148,80 @@ h2 {
 	color: var(--base-color);
 	background-color: #f5f4fa;
 	border-radius: 4px;
-	decoration: none;
+	text-decoration: none;
 }
 .link-button:hover,
 .link-button:focus {
 	background: var(--accent-color);
+	color: var(--light-text);
+}
+
+.list-item {
+	font-family: Roboto;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 1.14;
+	text-align: center;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	background: rgba(47, 48, 58, 0.8);
+	color: var(--light-text);
+}
+
+.team-title {
+	font-family: Roboto;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.18;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: var(--base-color);
+}
+
+.team-item {
+	font-family: Roboto;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 1.18;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: #757575;
+}
+
+.address {
+	font-family: Roboto;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 14px;
+	line-height: 1.71;
+	letter-spacing: 0.03em;
+	color: var(--light-text);
+	background: #2f303a;
+}
+
+.join {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: var(--light-text);
+}
+
+/*portfolio*/
+.content {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 1.55;
+	letter-spacing: 0.03em;
+}
+
+.content:hover,
+.content:focus {
+	background: rgba(33, 150, 243, 0.9);
 	color: var(--light-text);
 }
