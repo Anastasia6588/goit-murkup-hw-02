@@ -46,6 +46,27 @@ h2 {
 	color: var(--base-color);
 }
 
+h3 {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+}
+
+a {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.02em;
+	text-decoration: none;
+	color: var(--base-color);
+}
+
 li {
 	list-style: none;
 	text-decoration: none;
@@ -103,8 +124,9 @@ footer {
 	color: #2196f3;
 }
 
-a .menu-link.current {
+.menu-link-current {
 	color: var(--accent-color);
+	text-decoration: none;
 }
 
 .menu-contacts {
@@ -129,24 +151,6 @@ a .menu-link.current {
 	align-items: center;
 	text-align: center;
 	letter-spacing: 0.06em;
-	color: var(--light-text);
-}
-
-.link-button {
-	font-family: Roboto;
-	font-weight: 500;
-	font-size: 16px;
-	line-height: 1.62;
-	text-align: center;
-	letter-spacing: 0.03em;
-	color: var(--base-color);
-	background-color: #f5f4fa;
-	border-radius: 4px;
-	text-decoration: none;
-}
-.link-button:hover,
-.link-button:focus {
-	background: var(--accent-color);
 	color: var(--light-text);
 }
 
@@ -210,13 +214,40 @@ a .menu-link.current {
 }
 
 /*portfolio*/
+
+.filter-button {
+	font-family: Roboto;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.62;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: var(--base-color);
+	background-color: #f5f4fa;
+	border-radius: 4px;
+	text-decoration: none;
+}
+.filter-button:hover,
+.filter-button:focus {
+	background: var(--accent-color);
+	color: var(--light-text);
+}
+.card {
+	font-family: Roboto;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 2;
+	letter-spacing: 0.06em;
+	color: var(--base-color);
+}
 .content {
 	font-family: Roboto;
-	font-style: normal;
 	font-weight: normal;
 	font-size: 18px;
 	line-height: 1.55;
 	letter-spacing: 0.03em;
+	color: var(--light-text);
+	background: rgba(33, 150, 243, 0.9);
 }
 
 .content:hover,
