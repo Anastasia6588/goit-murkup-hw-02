@@ -105,16 +105,16 @@ footer {
 	font-size: 26px;
 	line-height: 1.19;
 	letter-spacing: 0.03em;
+}
 
 .logo-studio-footer {
-	color: --;
+	color: var(--light-text);
 	font-family: Raleway;
 	font-weight: bold;
 	font-size: 26px;
 	line-height: 1.19;
 	letter-spacing: 0.03em;
 }
-
 .menu-link {
 	color: var(--base-color);
 	text-decoration: none;
@@ -256,4 +256,14 @@ footer {
 .content:focus {
 	background: rgba(33, 150, 243, 0.9);
 	color: var(--light-text);
+}
+
+.filter-content {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 1.87;
+	letter-spacing: 0.03em;
+	color: var(--contact-color);
 }
